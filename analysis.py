@@ -48,8 +48,8 @@ for a in X_test:
 
 
 tone_analyzer = ToneAnalyzerV3(
-   username='fc63d7cf-48af-4b43-9284-949648280610',
-   password='V0iycgGI00QJ',
+   username='Enter your username',
+   password='Enter your password',
    version='2016-05-19')
 enteredtext=raw_input('Enter the text to be analysed \n')
 response=(json.loads(json.dumps((tone_analyzer.tone(text=enteredtext)),indent=2)))
